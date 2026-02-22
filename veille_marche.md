@@ -38,13 +38,13 @@ Cette veille identifie 5 acteurs du marché du soutien scolaire et de la mise en
 - **Interface :** Simple, centrée sur la relation humaine, photos des tuteurs mises en avant.
 - **Point fort :** Facilité de mise en relation et transparence sur le profil des bénévoles/tuteurs.
 
-## 5. Khan Academy (Acteur non-lucratif)
+## 5. Apprentus
 
-**Type :** Éducation gratuite pour tous (modèle proche de l'association).
+**Type :** Marketplace de mise en relation pour cours particuliers.
 
-- **Fonctionnalités clés :** Parcours personnalisés, tableau de bord pour les coachs (tuteurs), outils d'analyse de données.
-- **Interface :** Minimaliste, focus sur le contenu, très accessible (normes WCAG).
-- **Point fort :** Tableau de bord très complet pour le tuteur qui voit exactement où l'élève bloque.
+- **Fonctionnalités clés :** Moteur de recherche multicritères, système de messagerie sécurisée pour organiser les cours, calendrier de disponibilités des tuteurs.
+- **Interface :** Style "Plateforme de services" (similaire à Airbnb). Très efficace pour la prise de contact rapide.
+- **Point fort :** La gestion simplifiée de la prise de rendez-vous via le calendrier partagé.
 
 ---
 
