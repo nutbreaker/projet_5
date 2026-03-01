@@ -6,45 +6,13 @@ Cette veille identifie 5 acteurs du marché du soutien scolaire et de la mise en
 
 ---
 
-## 1. Acadomia
-
-**Type :** Leader du soutien scolaire privé.
-
-- **Fonctionnalités clés :** Suivi personnalisé, interface parent/élève, tableau de bord de progression.
-- **Interface :** Très institutionnelle, couleurs rassurantes (bleu/blanc), navigation claire.
-- **Point fort :** La rigueur du suivi et la clarté des bilans.
-
-## 2. Kartable
-
-**Type :** Plateforme de ressources pédagogiques en ligne.
-
-- **Fonctionnalités clés :** Cours complets, exercices interactifs, gestionnaire de planning.
-- **Interface :** Moderne, épurée, responsive design exemplaire, usage intensif d'icônes.
-- **Point fort :** L'accessibilité mobile et l'aspect ludique de l'apprentissage.
-
-## 3. Maxicours
-
-**Type :** Soutien scolaire 100% en ligne.
-
-- **Fonctionnalités clés :** Vidéos de cours, tutorat par chat en fin de journée.
-- **Interface :** Colorée, adaptée aux enfants, tableaux de bord de gamification.
-- **Point fort :** Le chat avec des enseignants en direct, similaire au besoin de Learn@Home.
-
-## 4. MySherpa
-
-**Type :** Mise en relation tuteur/élève.
-
-- **Fonctionnalités clés :** Recherche par critères (matière, lieu), messagerie interne, calendrier partagé.
-- **Interface :** Simple, centrée sur la relation humaine, photos des tuteurs mises en avant.
-- **Point fort :** Facilité de mise en relation et transparence sur le profil des bénévoles/tuteurs.
-
-## 5. Apprentus
-
-**Type :** Marketplace de mise en relation pour cours particuliers.
-
-- **Fonctionnalités clés :** Moteur de recherche multicritères, système de messagerie sécurisée pour organiser les cours, calendrier de disponibilités des tuteurs.
-- **Interface :** Style "Plateforme de services" (similaire à Airbnb). Très efficace pour la prise de contact rapide.
-- **Point fort :** La gestion simplifiée de la prise de rendez-vous via le calendrier partagé.
+| Acteur                                       | Positionnement                   | Fonctionnalités principales                               | Tendances de design                                        |
+|----------------------------------------------|----------------------------------|-----------------------------------------------------------|------------------------------------------------------------|
+| [**Acadomia**](https://www.acadomia.fr/)     | Leader du soutien scolaire       | Cours particuliers à domicile, soutien personnalisé       | Interface claire, accès rapide aux réservations            |
+| [**Kartable**](https://www.kartable.fr/)     | Support scolaire en ligne        | Cours virtuels, exercices interactifs, revisons en ligne  | Interface épurée, design mobile-friendly                   |
+| [**Maxicours**](https://www.maxicours.com/)  | Ressources éducatives en ligne   | Cours en vidéo, exercices, plateformes collaboratives     | Design interactif et engageant, contenu multimédia         |
+| [**MySherpa**](https://www.mysherpa.be)      | Plateforme de mise en relation   | Cours particuliers en ligne, évaluation des élèves        | Design démodé mais fonctionnel                             |
+| [**Apprentus**](https://www.apprentus.ch/)   | Cours particuliers variés        | Cours à domicile ou en ligne dans plusieurs matières      | Interface simple, options de filtrage par matière et tarif |
 
 ---
 
