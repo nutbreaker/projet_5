@@ -6,47 +6,47 @@ Ce document détaille les besoins fonctionnels sous forme de récits utilisateur
 
 ## 1. Page de Connexion & Gestion de compte
 
-| ID | User Story | Critères d'acceptation |
+| ID | User Story | Critères d'acceptation (GIVEN / WHEN / THEN) |
 | :--- | :--- | :--- |
-| **US1.1** | **En tant qu'** utilisateur, **je souhaite** me connecter **afin d'** accéder à mes outils. | - **GIVEN** : Je saisis un email valide et le bon mot de passe.<br>- **WHEN** : Je clique sur "Connexion".<br>- **THEN** : Je suis redirigé vers le Dashboard. |
-| **US1.2** | **En tant qu'** utilisateur, **je souhaite** réinitialiser mon mot de passe **afin de** ne pas perdre mon accès. | - **GIVEN** : Je clique sur "Mot de passe oublié".<br>- **WHEN** : Je renseigne mon email.<br>- **THEN** : Je reçois un lien de récupération. |
-| **US1.3** | **En tant que** nouvel utilisateur, **je souhaite** m'inscrire **afin de** rejoindre la plateforme. | - **GIVEN** : Je remplis tous les champs obligatoires du formulaire.<br>- **WHEN** : Je valide l'inscription.<br>- **THEN** : Mon compte est créé. |
-| **US1.4** | **En tant qu'** utilisateur connecté, **je souhaite** me déconnecter **afin de** sécuriser mon accès. | - **GIVEN** : Je suis sur n'importe quelle page.<br>- **WHEN** : Je clique sur "Déconnexion" dans le menu profil.<br>- **THEN** : Ma session est détruite et je reviens à la page de Login. |
+| **US1.1** | **En tant qu'** utilisateur, **je veux** me connecter **afin d'** accéder à mon espace sécurisé. | - **GIVEN** : Je suis sur la page de connexion.<br>- **WHEN** : Je saisis un e-mail valide, un mot de passe correct, et je valide.<br>- **THEN** : Je suis authentifié et redirigé vers le Tableau de bord. |
+| **US1.2** | **En tant qu'** utilisateur, **je veux** réinitialiser mon mot de passe **afin de** retrouver mon accès en cas d'oubli. | - **GIVEN** : Je suis sur la page de connexion.<br>- **WHEN** : Je clique sur "Mot de passe oublié" et soumets mon adresse e-mail.<br>- **THEN** : Je reçois un e-mail contenant un lien de réinitialisation si le compte existe. |
+| **US1.3** | **En tant que** visiteur, **je veux** créer un compte **afin de** rejoindre l'association. | - **GIVEN** : Je suis sur le formulaire d'inscription.<br>- **WHEN** : Je remplis les champs obligatoires et clique sur "S'inscrire".<br>- **THEN** : Mon compte est créé et une notification de succès s'affiche. |
+| **US1.4** | **En tant qu'** utilisateur connecté, **je veux** me déconnecter **afin de** sécuriser l'accès à mon compte. | - **GIVEN** : Je suis connecté à mon compte sur l'application.<br>- **WHEN** : Je clique sur le bouton "Déconnexion".<br>- **THEN** : Ma session sécurisée est fermée et je suis immédiatement redirigé vers la page de connexion. |
 
 ---
 
 ## 2. Interface de Chat
 
-| ID | User Story | Critères d'acceptation |
+| ID | User Story | Critères d'acceptation (GIVEN / WHEN / THEN) |
 | :--- | :--- | :--- |
-| **US2.1** | **En tant qu'** utilisateur, **je souhaite** envoyer un message **afin de** discuter avec mon binôme. | - **GIVEN** : Je saisis un texte dans la zone de saisie.<br>- **WHEN** : J'appuie sur "Entrée" ou le bouton "Envoyer".<br>- **THEN** : Le message apparaît instantanément avec l'heure et mon avatar. |
-| **US2.2** | **En tant qu'** expéditeur, **je souhaite** voir si mon message a été lu **afin d'** être informé. | - **GIVEN** : Le destinataire a ouvert la discussion.<br>- **WHEN** : Le message passe de l'état envoyé à lu.<br>- **THEN** : Une icône visuelle (ex: double check) confirme la lecture. |
-| **US2.3** | **En tant qu'** utilisateur, **je souhaite** gérer mes contacts **afin de** choisir mes interlocuteurs. | - **GIVEN** : Je suis dans l'annuaire.<br>- **WHEN** : Je clique sur "Ajouter" ou "Supprimer".<br>- **THEN** : Ma liste de contacts est mise à jour. |
+| **US2.1** | **En tant qu'** utilisateur, **je veux** envoyer un message instantané **afin de** discuter avec mon binôme. | - **GIVEN** : Je suis sur l'interface de chat dans une conversation active.<br>- **WHEN** : Je saisis un texte et appuie sur "Envoyer".<br>- **THEN** : Le message s'affiche dans l'historique avec mon avatar et l'horodatage. |
+| **US2.2** | **En tant qu'** expéditeur, **je veux** voir un accusé de lecture **afin de** savoir si mon message a été lu. | - **GIVEN** : J'ai envoyé un message à mon contact.<br>- **WHEN** : Le contact ouvre la conversation sur son écran.<br>- **THEN** : L'indicateur sous mon message passe à l'état "Vu" (ex: double coche). |
+| **US2.3** | **En tant qu'** utilisateur, **je veux** gérer mes contacts **afin de** garder mon carnet d'adresses à jour. | - **GIVEN** : Je consulte ma liste de contacts dans la barre latérale du chat.<br>- **WHEN** : Je clique sur l'icône "Supprimer" à côté d'un contact et confirme.<br>- **THEN** : Le contact disparaît de ma liste. |
 
 ---
 
 ## 3. Page Calendrier
 
-| ID | User Story | Critères d'acceptation |
+| ID | User Story | Critères d'acceptation (GIVEN / WHEN / THEN) |
 | :--- | :--- | :--- |
-| **US3.1** | **En tant qu'** utilisateur, **je souhaite** voir mes cours prévus **afin de** m'organiser. | - **GIVEN** : Je suis sur la page Calendrier.<br>- **WHEN** : La page charge la vue actuelle.<br>- **THEN** : Mes cours sont affichés par créneau horaire. |
-| **US3.2** | **En tant qu'** utilisateur, **je souhaite** programmer un cours **afin de** fixer un rendez-vous. | - **GIVEN** : Je sélectionne une date et une heure.<br>- **WHEN** : Je valide l'ajout de l'événement.<br>- **THEN** : Le cours apparaît dans mon calendrier et celui de mon binôme. |
+| **US3.1** | **En tant qu'** utilisateur, **je veux** visualiser mon planning **afin de** m'organiser pour mes séances. | - **GIVEN** : Je suis connecté sur l'application.<br>- **WHEN** : Je navigue vers la page "Calendrier".<br>- **THEN** : Le calendrier affiche les événements prévus sur le mois (ou la semaine). |
+| **US3.2** | **En tant qu'** utilisateur, **je veux** programmer un rendez-vous **afin de** planifier une séance de soutien. | - **GIVEN** : Je suis sur la vue Calendrier.<br>- **WHEN** : Je clique sur un jour, remplis le formulaire d'événement et sauvegarde.<br>- **THEN** : L'événement apparaît sur mon calendrier et est synchronisé pour mon binôme. |
 
 ---
 
 ## 4. Gestionnaire de Tâches
 
-| ID | User Story | Critères d'acceptation |
+| ID | User Story | Critères d'acceptation (GIVEN / WHEN / THEN) |
 | :--- | :--- | :--- |
-| **US4.1** | **En tant qu'** élève, **je souhaite** créer une tâche **afin de** lister mes devoirs. | - **GIVEN** : Je saisis le libellé de la tâche.<br>- **WHEN** : Je valide l'ajout.<br>- **THEN** : La tâche apparaît dans ma To-do list. |
-| **US4.2** | **En tant que** bénévole, **je souhaite** assigner une tâche à mon élève **afin de** l'aider. | - **GIVEN** : Je sélectionne mon élève.<br>- **WHEN** : Je crée la tâche pour lui.<br>- **THEN** : L'élève reçoit la tâche dans sa liste avec la mention du tuteur. |
-| **US4.3** | **En tant qu'** utilisateur, **je souhaite** marquer une tâche comme faite **afin de** suivre mon progrès. | - **GIVEN** : Je coche la case d'une tâche.<br>- **WHEN** : La validation est effectuée.<br>- **THEN** : La tâche est barrée ou déplacée dans la liste "Terminée". |
+| **US4.1** | **En tant qu'** élève, **je veux** créer une tâche pour moi-même **afin de** lister mes devoirs. | - **GIVEN** : Je suis sur la page des tâches (connecté en Élève).<br>- **WHEN** : Je rédige l'intitulé de la tâche et valide.<br>- **THEN** : La tâche s'ajoute à ma liste, sans option d'assignation à un tiers. |
+| **US4.2** | **En tant que** bénévole, **je veux** assigner une tâche à mon élève **afin de** le guider dans son travail. | - **GIVEN** : Je suis sur la fenêtre de création de tâche (connecté en Bénévole).<br>- **WHEN** : Je sélectionne le nom de mon élève dans le champ "Assigner à" et je valide.<br>- **THEN** : La tâche est envoyée dans la To-do list de l'élève. |
+| **US4.3** | **En tant qu'** utilisateur, **je veux** cocher une tâche comme terminée **afin de** suivre ma progression. | - **GIVEN** : J'ai une liste de tâches actives devant moi.<br>- **WHEN** : Je clique sur la case à cocher (checkbox) d'une tâche.<br>- **THEN** : La tâche se barre visuellement et passe dans le statut "Terminée". |
 
 ---
 
-## 5. Tableau de Bord
+## 5. Tableau de Bord (Dashboard)
 
-| ID | User Story | Critères d'acceptation |
+| ID | User Story | Critères d'acceptation (GIVEN / WHEN / THEN) |
 | :--- | :--- | :--- |
-| **US5.1** | **En tant qu'** utilisateur, **je souhaite** voir mes notifications **afin de** ne rien rater. | - **GIVEN** : J'ai reçu des messages ou tâches.<br>- **WHEN** : Je suis sur le Dashboard.<br>- **THEN** : Des badges de notification indiquent les nouveaux éléments. |
-| **US5.2** | **En tant qu'** utilisateur, **je souhaite** un accès rapide aux outils **afin de** gagner du temps. | - **GIVEN** : Je clique sur un widget du Dashboard (ex: Calendrier).<br>- **WHEN** : L'action est déclenchée.<br>- **THEN** : Je suis redirigé directement vers le module complet correspondant. |
+| **US5.1** | **En tant qu'** utilisateur, **je veux** voir un résumé de mes obligations **afin de** connaître mes priorités dès la connexion. | - **GIVEN** : Je viens de réussir mon authentification.<br>- **WHEN** : La page d'accueil (Dashboard) se charge.<br>- **THEN** : Je vois ma To-do list à jour et la liste de mes prochains rendez-vous. |
+| **US5.2** | **En tant qu'** utilisateur, **je veux** être alerté des nouveaux messages **afin de** ne rater aucune communication. | - **GIVEN** : Je suis sur le Dashboard et un contact m'a écrit.<br>- **WHEN** : Je regarde la section "Chat" ou la barre de navigation.<br>- **THEN** : Un compteur rouge indique précisément le nombre de messages non lus. |
