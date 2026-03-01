@@ -14,8 +14,8 @@ flowchart LR
     "]
 
     subgraph "__Système de Connexion__"
-        UC1["S'authentifier"]
-        UC2["Créer un compte"]
+        UC1["Créer un compte"]
+        UC2["S'authentifier"]
         UC3["Réinitialiser le mot de passe"]
         UC4["Se déconnecter"]
     end
