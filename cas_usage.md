@@ -2,6 +2,8 @@
 
 Ce document présente les interactions entre les utilisateurs (Elèves et Bénévoles) et le système pour chaque fonctionnalité majeure, détaillant les responsabilités de chaque acteur.
 
+\* N.B : _Bien que techniquement incorrect, lorsque cela est possible, les acteurs "Elève" et "Bénévole" sont fusionnés afin de réduire le nombre de flèches et donc de faciliter la lecture._
+
 ---
 
 ## 1. Connexion (Login)
@@ -173,5 +175,3 @@ graph LR
 - **Post-conditions :** L'utilisateur a une vision globale de ses priorités sans changer de page.
 
 ---
-
-\* N.B : _Afin de réduire le nombre de flèches et parce que la plupart des cas d'utilisation sont partagés entre "Elève" et "Bénévole", une seule boîte acteur a été créée._
