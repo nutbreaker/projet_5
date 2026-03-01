@@ -1,68 +1,33 @@
-# Kanban du Projet - Learn@Home (Finalisé)
+# Kanban du Projet - Learn@Home
 
-Ce document présente l'organisation détaillée du projet, découpée en blocs de fonctionnalités, avec une traçabilité vers les User Stories (US).
-
----
-
-## 1. ANALYZE (Cadrage & Conception) - DONE
-
-| Tâche | Description | Page concernée | US Réf. |
-| :--- | :--- | :--- | :--- |
-| Veille marché | Identification de 5 concurrents et tendances. | N/A | N/A |
-| Cas d'usage | Diagrammes d'interaction Élève/Bénévole. | Toutes | US1.1 - US5.2 |
-| User Stories | Rédaction GIVEN/WHEN/THEN. | Toutes | US1.1 - US5.2 |
-| Maquettes | Structure Desktop & Mobile. | Toutes | N/A |
+Ce document présente l'organisation détaillée du projet, découpée par sprints et blocs de fonctionnalités, avec une traçabilité vers les User Stories (US).
 
 ---
 
-## 2. DÉVELOPPEMENT (Backlog / To Do)
-
-### A. Bloc Authentification
-
-- [ ] **B-01 : Base de données** | Création schéma (Users, Sessions). | Connexion | US1.1, US1.3, US1.4 |
-- [ ] **B-02 : Login UI** | Intégration Desktop/Mobile du formulaire. | Connexion | US1.1 |
-- [ ] **B-03 : Recovery** | Système de reset mot de passe. | Connexion | US1.2 |
-- [ ] **B-04 : Logout** | Implémentation de la déconnexion. | Toutes | US1.4 |
-
-### B. Bloc Communication
-
-- [ ] **C-01 : Socket Setup** | Mise en place chat temps réel. | Chat | US2.1 |
-- [ ] **C-02 : Contacts** | Ajouter/Supprimer des binômes. | Chat | US2.3 |
-- [ ] **C-03 : UI Chat** | Fenêtre de discussion et historique. | Chat | US2.1, US2.4 |
-- [ ] **C-04 : Statuts** | Indicateur de lecture "vu". | Chat | US2.2 |
-
-### C. Bloc Organisation
-
-- [ ] **O-01 : Calendar Engine** | Gestion des créneaux et RDV. | Calendrier | US3.1, US3.2 |
-- [ ] **O-02 : To-do List** | Système de tâches avec attribution. | Tâches | US4.1, US4.2 |
-- [ ] **O-03 : Permissions** | Restriction élève sur attribution tâches. | Tâches | US4.2 |
-
-### D. Bloc Synthèse
-
-- [ ] **D-01 : Global UI** | Layout Dashboard et Sidebar. | Dashboard | US5.1, US5.2 |
-- [ ] **D-02 : Widgets** | Intégration compteurs et raccourcis. | Dashboard | US5.1, US5.2 |
-
-__Légende des préfixes__
-
-Pour faciliter la lecture, chaque tâche utilise un préfixe correspondant à son bloc fonctionnel :
-
-- **B-** : Bloc Authentification (Base/Backend)
-- **C-** : Bloc Communication (Chat/Contacts)
-- **O-** : Bloc Organisation (Outils/Calendrier/Tâches)
-- **D-** : Bloc Synthèse (Dashboard/Design global)
-
----
-
-## 3. Priorisation (Roadmap)
-
-1.  **Sprint 1 (Fondations) :** Authentification et Dashboard (Widgets vides).
-2.  **Sprint 2 (Social) :** Chat complet et gestion des contacts.
-3.  **Sprint 3 (Outils) :** Calendrier et Gestionnaire de tâches.
-4.  **Sprint 4 (Polissage) :** Responsive final et tests d'accessibilité.
+| **Backlog** | **In Progress** | **Done** |
+| :--- | :--- | :--- |
+| [**[SPRINT 1 : Sécurité & Accès]**](https://github.com/nutbreaker/projet_5/milestone/1) Livraison prévue le, 15.03.2026 | | |
+| [**US1.1**](https://github.com/nutbreaker/projet_5/issues/1) - Connexion | | |
+| [**US1.3**](https://github.com/nutbreaker/projet_5/issues/3) - Création de compte | | |
+| [**US1.4**](https://github.com/nutbreaker/projet_5/issues/4) - Déconnexion | | |
+| [**[SPRINT 2 : Tâches & Dashboard]**](https://github.com/nutbreaker/projet_5/milestone/2) Livraison prévue le, 29.03.2026  | | |
+| [**US4.1**](https://github.com/nutbreaker/projet_5/issues/10) - Créer tâche (Élève) | | |
+| [**US4.2**](https://github.com/nutbreaker/projet_5/issues/11) - Assigner tâche (Bénévole) | | |
+| [**US4.3**](https://github.com/nutbreaker/projet_5/issues/12) - Statut de tâche | | |
+| [**US5.1**](https://github.com/nutbreaker/projet_5/issues/13) - Résumé Dashboard | | |
+| [**[SPRINT 3 : Communication & Calendrier]**](https://github.com/nutbreaker/projet_5/milestone/3) Livraison prévue le, 12.03.2026  | | |
+| [**US2.1**](https://github.com/nutbreaker/projet_5/issues/5) - Envoi de message chat | | |
+| [**US2.3**](https://github.com/nutbreaker/projet_5/issues/7) - Gestion des contacts | | |
+| [**US3.1**](https://github.com/nutbreaker/projet_5/issues/8) - Visualisation planning | | |
+| [**US3.2**](https://github.com/nutbreaker/projet_5/issues/9) - Programmation de rendez-vous | | |
+| [**US5.2**](https://github.com/nutbreaker/projet_5/issues/14) - Alertes Messages | | |
+| [**[SPRINT 4 : Finitions & Notifications]**](https://github.com/nutbreaker/projet_5/milestone/4) Livraison prévue le, 26.04.2026  | | |
+| [**US2.2**](https://github.com/nutbreaker/projet_5/issues/2) - Accusé de lecture | | |
+| [**US1.2**](https://github.com/nutbreaker/projet_5/issues/6) - Réinitialisation mot de passe | | |
 
 ---
 
 ## Liens Utiles
 
-- **User Stories :** `user_stories.md`
-- **Maquettes :** `maquettes_structure.md`
+- **GitHub :** [Project](https://github.com/users/nutbreaker/projects/3/views/1)
+- **Maquettes :** [Figma](https://www.figma.com/design/rzfaz8OFn4R0JooQFZDOHL/Learn-Home?node-id=0-1&p=f&t=RZ0iKQMaY7YN3674-0)
