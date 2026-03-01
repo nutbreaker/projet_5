@@ -21,14 +21,13 @@ Cette veille identifie 5 acteurs du marché du soutien scolaire et de la mise en
 ### Tendances de l'interface
 
 - **Simplicité :** Les interfaces sont épurées pour ne pas distraire l'élève.
-- **Identité visuelle :** Couleurs vives mais professionnelles. Pour Learn@Home, le rouge du logo devra être utilisé par touches (boutons d'action, indicateurs) sur un fond blanc/gris clair pour rester lisible.
+- **Identité visuelle :** Couleurs vives mais professionnelles.
 - **Accessibilité :** Priorité au mobile (responsive design) car beaucoup d'élèves utilisent leur smartphone ou tablette.
 
 ### Fonctionnalités recommandées
 
-- **Gamification légère :** Un compteur de tâches terminées ou de rendez-vous honorés pour motiver l'élève.
-- **Indicateurs de présence :** Savoir quand le tuteur est en ligne dans le chat.
-- **Centralisation :** Un tableau de bord qui résume tout au premier coup d'oeil.
+- **Centralisation :** Un tableau de bord principal (Dashboard) agissant comme point d'entrée unique (récapitulatif des tâches, messages, RDV).
+- **Indicateurs de présence :** Horodatage précis et accusés de lecture ("Vu") dans le chat pour fluidifier la communication asynchrone.
 
 ---
 
