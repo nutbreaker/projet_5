@@ -35,11 +35,13 @@ Cette veille identifie 5 acteurs du marché du soutien scolaire et de la mise en
 
 Suite à l'analyse des besoins (chat temps réel, gestion d'utilisateurs, base de données simple), la stack technique suivante est recommandée pour un développement rapide et efficace :
 
-- **Frontend :** Un framework simple et minimaliste tel que **Alpine.js** pour une interface réactive et responsive.
-- **Backend & Database : PocketBase**.
+- **Hébergement :** [**VPS OVHcloud**](https://www.ovhcloud.com/fr/vps/) économique et performant.
+- **Frontend :** Un framework simple et minimaliste tel que [**Alpine.js**](https://alpinejs.dev/) pour une interface réactive et responsive.
+- **Backend & Database :** [**PocketBase**](https://pocketbase.io/)
   - **Pourquoi PocketBase ?**
     - Centralise l'authentification, la base de données et le stockage de fichiers.
     - Support natif du temps réel via SSE, idéal pour la fonctionnalité de **Chat**.
     - Facilité de déploiement (un seul fichier exécutable).
     - Interface d'administration intuitive pour que l'association puisse gérer les utilisateurs si besoin.
-- **Design :** **Figma** pour le prototypage des maquettes avant intégration.
+- **Gestion de projet :** Github pour la gestion du [code](https://github.com/nutbreaker/projet_5) et du [backlog](https://github.com/users/nutbreaker/projects/3/views/1).
+- **Design :** [**Figma**](https://www.figma.com/design/rzfaz8OFn4R0JooQFZDOHL/Learn-Home?node-id=0-1&p=f&t=RZ0iKQMaY7YN3674-0) pour le prototypage des maquettes avant intégration.
