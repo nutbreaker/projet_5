@@ -79,8 +79,4 @@ Développement découpé en **4 Sprints** (Mars - Avril 2026) :
 
 ## Conclusion
 
-**Learn@Home** répond au besoin de l'association par une interface minimaliste mais techniquement robuste.
-
-- **MVP validé** : Toutes les US critiques sont planifiées.
-- **Évolutivité** : Choix de PocketBase permettant une montée en charge facile.
-- **Prêt pour le développement** : Spécifications et maquettes finalisées.
+Le projet **Learn@Home** est prêt à passer à l'étape de réalisation.
